@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    maven {
+        url 'https://papermc.io/repo/repository/maven-public/'
+    }
+}
+
+group 'pl.konradmaksymilian'
+version '1.0-ALPHA'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.mongodb:mongodb-driver-sync:4.0.5'
+    implementation 'com.destroystokyo.paper:paper-api:1.12.2-R0.1-SNAPSHOT'
+}
