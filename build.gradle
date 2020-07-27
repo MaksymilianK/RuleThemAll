@@ -16,6 +16,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.mongodb:mongodb-driver-sync:4.0.5'
     implementation 'com.destroystokyo.paper:paper-api:1.12.2-R0.1-SNAPSHOT'
+    implementation 'org.postgresql:postgresql:42.2.14'
+    implementation 'com.zaxxer:HikariCP:3.4.5'
+    implementation 'org.mongodb:mongodb-driver-sync:4.0.5'
 }
